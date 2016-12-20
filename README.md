@@ -1,19 +1,20 @@
 # xyinc
 Teste Zup
 
-Foi proposto uma API Web na qual fosse possível realizar operações de Inserção, Edição, Deleção e Consultas em um recurso de produtos: Ex.: http://domain.com/products.
+Foi proposto uma API Web na qual fosse possÃ­vel realizar operaÃ§Ãµes de InserÃ§Ã£o, EdiÃ§Ã£o, DeleÃ§Ã£o e Consultas em um recurso de produtos: Ex.: http://domain.com/products.
 
 Neste projeto foi utilizado:
 
-    Maven, para fácil gerenciamento de dependências.
-    Hibernate para trabalhar com persistência de dados via ORM
+    Maven, para fÃ¡cil gerenciamento de dependÃªncias.
+    Hibernate para trabalhar com persistÃªncia de dados via ORM
     Framework Spring para seguir a arquitetura MVC simples.
-    MySQL como repositório de dados
-    AppHarbor para armazenamento de dados em nuvem e provisionamento rápido de instânciaS
+    MySQL como repositÃ³rio de dados
+    AppHarbor para armazenamento de dados em nuvem e provisionamento rÃ¡pido de instÃ¢nciaS
 
-O projeto foi separado em 3 packages, para que cada um pudesse ter sua própria responsabilidade:
+O projeto foi separado em 3 packages, para que cada um pudesse ter sua prÃ³pria responsabilidade:
 
-    Web -> contém controllers e lógica relacionadas a request/reponse da API.
-    Entidades -> contém o modelo de negócio (isolado e independente) -> Data -> contém as regras de repositório (persistência)
+    Web -> contÃ©m controllers e lÃ³gica relacionadas a request/reponse da API.
+    Entidades -> contÃ©m o modelo de negÃ³cio (isolado e independente) 
+    Data -> contÃ©m as regras de repositÃ³rio (persistÃªncia)
 
-Pelo fato de nunca ter tido experiência com o Java (e seus frameworks), e vir de uma stack diferente (Node.JS e .NET) tive um pouco de dificuldades em criar este projeto, o qual o deixou com inúmeras oportunidades de melhorias, como por exemplo a criação de testes unitários, track de erros (exceções), migrations de base de dados, etc.
+Pelo fato de nunca ter tido experiÃªncia com o Java (e seus frameworks), e vir de uma stack diferente (Node.JS e .NET) tive um pouco de dificuldades em criar este projeto, o qual o deixou com inÃºmeras oportunidades de melhorias, como por exemplo a criaÃ§Ã£o de testes unitÃ¡rios, track de erros (exceÃ§Ãµes), migrations de base de dados, etc.
