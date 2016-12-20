@@ -18,3 +18,6 @@ O projeto foi separado em 3 packages, para que cada um pudesse ter sua própria 
     Data -> contém as regras de repositório (persistência)
 
 Pelo fato de nunca ter tido experiência com o Java (e seus frameworks), e vir de uma stack diferente (Node.JS e .NET) tive um pouco de dificuldades em criar este projeto, o qual o deixou com inúmeras oportunidades de melhorias, como por exemplo a criação de testes unitários, track de erros (exceções), migrations de base de dados, etc.
+
+
+Caso seja possível, posso reescrever o teste proposto em: Node.JS ou C#, no qual terei melhores condições para demonstrar, através de código, minha experiência profissional.
